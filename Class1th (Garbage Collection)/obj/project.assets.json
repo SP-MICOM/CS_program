@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Program\\Program.csproj",
-      "projectName": "Program",
-      "projectPath": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Program\\Program.csproj",
+      "projectUniqueName": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class1th (Garbage Collection)\\Class1th (Garbage Collection).csproj",
+      "projectName": "Class1th (Garbage Collection)",
+      "projectPath": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class1th (Garbage Collection)\\Class1th (Garbage Collection).csproj",
       "packagesPath": "C:\\Users\\iheug\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Program\\obj\\",
+      "outputPath": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class1th (Garbage Collection)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\iheug\\AppData\\Roaming\\NuGet\\NuGet.Config",
