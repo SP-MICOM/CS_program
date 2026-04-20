@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Class1th (Garbage Collection)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Class2th (Parameter Modifier)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58def1f2b15be2664b9bbe2211a9a1e0cc69d846")]
-[assembly: System.Reflection.AssemblyProductAttribute("Class1th (Garbage Collection)")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Class1th (Garbage Collection)")]
+[assembly: System.Reflection.AssemblyProductAttribute("Class2th (Parameter Modifier)")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Class2th (Parameter Modifier)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.

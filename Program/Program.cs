@@ -1,54 +1,18 @@
 ﻿namespace Program
 {
-    public class Circle
-    {
-        public int x;
-        public int y;
-        public float radius;
-        public Circle()
-        {
-            Console.WriteLine("Created Circle");
-        }
-    }
-
     internal class Program
     {
-        static void Collide(Circle origin, Circle other)
-        {
-            float deltaX = origin.x - other.x;
-            float deltaY = origin.y - other.y;
-
-            if(deltaX * deltaY + deltaY * deltaY <= (origin.radius + other.radius) * (origin.radius + other.radius))
-            {
-
-            }
-            else
-            {
-
-            }
-        }
-
         static void Main(string[] args)
         {
-            #region 매개 변수 한정자
-            // 인수가 함수에 전달되는 방식과 사용 규칙을 제어하는 한정자입니다.
+            #region 추상 클래스
+            // 공통적인 기능을 제공하며, 구체적인 동작은 하위 클래스에서
+            // 정의할 수 있도록 만들어 놓은 클래스입니다.
 
-            Circle circle = new Circle();
             
-            circle.x = 5;
-            circle.y = 5;
-            circle.radius = 1.0f;
-            
-            Circle quadrant = new Circle();
-
-            quadrant.x = 1;
-            quadrant.y = 2;
-            quadrant.radius = 1.0f;
-
-            Collide(circle, quadrant);
 
             #endregion
-
         }
     }
+
 }
+
