@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Program
-{
     internal class Knight : Soldier
     {
         public Knight()
@@ -18,4 +16,3 @@ namespace Program
             Console.WriteLine("Knight Attack");
         }
     }
-}

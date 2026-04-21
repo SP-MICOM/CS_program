@@ -4,28 +4,43 @@
     {
         static void Main(string[] args)
         {
-            #region 추상 클래스
-            // 공통적인 기능을 제공하며, 구체적인 동작은 하위 클래스에서
-            // 정의할 수 있도록 만들어 놓은 클래스입니다.
+            Frame frame = new Frame();
+            Clock clock = new Clock();
+            Switch @switch = new Switch();
 
-            Barracks barracks = new Barracks();
+            ISelectable[] selectable = new ISelectable[3];
 
-            int creatcount = 0;
+            int count = 0;
 
-            int select = 0;
-
-            while (creatcount < 5)
+            while (count < selectable.Length)
             {
-                Console.WriteLine(" ");
+                Console.Write("What : ");
+                int select = int.Parse(Console.ReadLine());
 
-                select = int.Parse(Console.ReadLine());
+                switch (select)
+                {
+                    case 0:
+                        frame.Select();
+                        count++;
+                        break;
 
-                barracks.Create(select);
+                    case 1:
+                        clock.Select();
+                        count++;
+                    break;
 
-                creatcount++;
+                    case 2:
+                        @switch.Select();
+                        count++;
+                        break;
+
+                    default:
+                        Console.WriteLine("wrong");
+                        break;
+                }
+
+                Console.WriteLine();
             }
-
-            #endregion
         }
     }
 

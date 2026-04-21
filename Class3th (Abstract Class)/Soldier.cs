@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Program
-{
     internal abstract class Soldier
     {
         protected int health;
@@ -11,4 +9,3 @@ namespace Program
 
         public abstract void Attack();
     }
-}
