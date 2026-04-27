@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\CS_program\\Class2th (Parameter Modifier)\\Class2th (Parameter Modifier).csproj": {}
+    "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class2th (Parameter Modifier)\\Class2th (Parameter Modifier).csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\CS_program\\Class2th (Parameter Modifier)\\Class2th (Parameter Modifier).csproj": {
+    "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class2th (Parameter Modifier)\\Class2th (Parameter Modifier).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\CS_program\\Class2th (Parameter Modifier)\\Class2th (Parameter Modifier).csproj",
+        "projectUniqueName": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class2th (Parameter Modifier)\\Class2th (Parameter Modifier).csproj",
         "projectName": "Class2th (Parameter Modifier)",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\CS_program\\Class2th (Parameter Modifier)\\Class2th (Parameter Modifier).csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\CS_program\\Class2th (Parameter Modifier)\\obj\\",
+        "projectPath": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class2th (Parameter Modifier)\\Class2th (Parameter Modifier).csproj",
+        "packagesPath": "C:\\Users\\iheug\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class2th (Parameter Modifier)\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\iheug\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

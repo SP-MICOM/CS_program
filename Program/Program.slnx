@@ -4,5 +4,6 @@
   <Project Path="../Class3th (Abstract Class)/Class3th (Abstract Class).csproj" Id="12124510-6765-4d6b-9a43-7336e6e0518e" />
   <Project Path="../Class4th (Interface)/Class4th (Interface).csproj" Id="ce86f7a9-2f27-4a94-8d37-d837b6638f92" />
   <Project Path="../Class5th (Generalization)/Class5th (Generalization).csproj" Id="880fe616-c650-46f2-8e0a-69c7c538d3ef" />
+  <Project Path="../Class6th (Collection)/Class6th (Collection).csproj" Id="9c094288-9984-4e64-b34e-cbd72a9aee5f" />
   <Project Path="Program.csproj" />
 </Solution>
