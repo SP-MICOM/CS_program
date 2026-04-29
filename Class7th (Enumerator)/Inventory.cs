@@ -3,8 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Program
-{
     internal class Inventory<T> : IEnumerable
     {
         private T[] list;
@@ -30,7 +28,6 @@ namespace Program
 
         public IEnumerator GetEnumerator()
         {
-            throw new NotImplementedException();
+            return new Enumerator<T>(list, count);
         }
     }
-}

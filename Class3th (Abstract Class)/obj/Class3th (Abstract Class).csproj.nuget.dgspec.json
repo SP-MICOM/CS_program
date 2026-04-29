@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\CS_program\\Class3th (Abstract Class)\\Class3th (Abstract Class).csproj": {}
+    "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class3th (Abstract Class)\\Class3th (Abstract Class).csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\CS_program\\Class3th (Abstract Class)\\Class3th (Abstract Class).csproj": {
+    "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class3th (Abstract Class)\\Class3th (Abstract Class).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\CS_program\\Class3th (Abstract Class)\\Class3th (Abstract Class).csproj",
+        "projectUniqueName": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class3th (Abstract Class)\\Class3th (Abstract Class).csproj",
         "projectName": "Class3th (Abstract Class)",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\CS_program\\Class3th (Abstract Class)\\Class3th (Abstract Class).csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\CS_program\\Class3th (Abstract Class)\\obj\\",
+        "projectPath": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class3th (Abstract Class)\\Class3th (Abstract Class).csproj",
+        "packagesPath": "C:\\Users\\iheug\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iheug\\OneDrive\\바탕 화면\\CS_program\\Class3th (Abstract Class)\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\iheug\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

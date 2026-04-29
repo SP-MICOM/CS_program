@@ -6,27 +6,51 @@ namespace Program
 {
     internal class Program
     {
+        delegate float Opertation(float x, float y);
+
+        static float Add(float x, float y)
+        {
+            return (x + y);
+        }
+
+        static float Substract(float x, float y)
+        {
+            return x - y;
+        }
+
+        static float Multiply(float x, float y)
+        {
+            return x * y;
+        }
+
+        static float Divide(float x, float y)
+        {
+            return x / y;
+        }
+
         static void Main(string[] args)
         {
-            #region 열거자
-            // 여러 개의 항목으로 이루어진 데이터 집합에서 각 요소를 하나씩
-            // 순서대로 꺼내 사용할 수 있도록 해주는 객체입니다.
+            #region 대리자
+            // 특정한 함수를 가진 함수를 참조할 수 있는 참조 타입입니다.
 
-            Inventory<Item> inventory = new Inventory<Item>();
+            Opertation opertation;
 
-            Item knife = new Item();
+            opertation = Add;
 
-            knife.name = "Knife";
-            knife.level = 15;
-            knife.Bound = true;
+            Console.WriteLine(opertation(5, 5));
 
-            inventory.Add(knife);
-            inventory.Add(knife);
-            inventory.Add(knife);
-            inventory.Add(knife);
-            inventory.Add(knife);
-            inventory.Add(knife);
+            opertation = Substract;
 
+            Console.WriteLine(opertation(5, 5));
+
+            opertation = Multiply;
+
+            Console.WriteLine(opertation(5, 5));
+
+            opertation = Divide;
+
+            Console.WriteLine(opertation(5, 5));
+            
             #endregion
         }
     }
