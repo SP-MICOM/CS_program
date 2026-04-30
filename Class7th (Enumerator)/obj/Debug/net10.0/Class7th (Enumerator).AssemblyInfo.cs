@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Class7th (Enumerator)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2768b2e8ab1fc5215fed4b947166604c7a54981b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0947069577e7280c5cff4a09136222e96699562")]
 [assembly: System.Reflection.AssemblyProductAttribute("Class7th (Enumerator)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Class7th (Enumerator)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
