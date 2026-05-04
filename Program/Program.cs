@@ -8,14 +8,19 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            #region 단일 책임 원칙
-            // 클래스는 하나의 기능으로 수정될 수 있도록 설계해야 하는 원칙입니다.
+            #region 개방 폐쇄 원칙
+            // 소프트웨어 개체에서는 확장에 대해 열려 있어야 하며,
+            // 수정에 대해서는 닫혀 있도록 설계되어야 하는 원칙입니다.
 
-            User user = new User("iheu@naver.com", "password123*");
+            Sensor sensor = new Sensor();
 
-            Persistence persistence = new Persistence();
+            Product defective = new Defective();
+            Product bread = new Bread();
+            Product sealant = new Sealant();
 
-            persistence.Save(user);
+            sensor.Detect(defective);
+            sensor.Detect(bread);
+            sensor.Detect(sealant);
 
             #endregion
         }
